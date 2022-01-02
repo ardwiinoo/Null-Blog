@@ -1,10 +1,10 @@
 # Content
 - id: postedOnDate
-  translation: "Di post {{ . }}"
+  translation: "Post {{ . }}"
 - id: lastModified
   translation: "(Dimodifikasi {{ . }})"
 - id: translationsLabel
-  translation: "Bahasa Lainnya: "
+  translation: "Bahasa: "
 - id: translationsSeparator
   translation: ", "
 - id: readMore
