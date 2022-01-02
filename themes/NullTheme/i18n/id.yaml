@@ -1,0 +1,72 @@
+# Content
+- id: postedOnDate
+  translation: "Di post {{ . }}"
+- id: lastModified
+  translation: "(Dimodifikasi {{ . }})"
+- id: translationsLabel
+  translation: "Bahasa Lainnya: "
+- id: translationsSeparator
+  translation: ", "
+- id: readMore
+  translation: "Baca Lebih Banyak"
+- id: morePosts
+  translation: "Postingan Lainnya"
+- id: olderPosts
+  translation: "Postingan Lama"
+- id: newerPosts
+  translation: "Postingan Baru"
+- id: previousPost
+  translation: "Postingan Sebelumnya"
+- id: nextPost
+  translation: "Postingan Selanjutnya"
+- id: readTime
+  translation: "menit"
+- id: words
+  translation: "kata"
+
+
+# 404 page
+- id: pageNotFound
+  translation: "Whoops, this page doesn't exist. Move along. (404 error)"
+
+# Footer
+- id: poweredBy # Accepts HTML
+  translation: '<a href="https://gohugo.io">Hugo v{{ .Site.Hugo.Version }}</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>'
+
+# Navigation
+- id: toggleNavigation
+  translation: "Toggle navigation"
+- id: languageSwitcherLabel
+  translation: "Language"
+- id: gcseLabelShort
+  translation: "Search"
+- id: gcseLabelLong
+  translation: "Search {{ .Site.Title }}"
+- id: gcseClose
+  translation: "Close"
+
+# Staticman
+- id: noComment
+  translation: "No comment"
+- id: oneComment
+  translation: "comment"
+- id: moreComment
+  translation: "comments"
+- id: useMarkdown
+  translation: "You can use Markdown syntax"
+- id: yourName
+  translation: "Your name"
+- id: yourEmail
+  translation: "Your email address"
+- id: yourWebsite
+  translation: "You website"
+
+# Delayed Disqus
+- id: show
+  translation: "Tampilkan"
+- id: comments
+  translation: "Komentar" 
+
+# Related posts
+- id: seeAlso
+  translation: "Lihat Juga"

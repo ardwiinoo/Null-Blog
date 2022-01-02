@@ -1,0 +1,96 @@
+baseurl = "examplesite.com"
+metaDataFormat = "yaml"
+theme = "NullTheme"
+title = "NullPointer"
+
+DefaultContentLanguage = "id"
+DefaultContentLanguageInSubdir = true
+[languages]
+[languages.id]
+contentDir = "content/id" #Indonesian
+languageName = "Indonesian" 
+weight = 1 
+[languages.id.params]
+introPhoto = "#"
+introSubtitle = "Selalu update ketika authornya gabut :)"
+introTitle = "Temukan Artikel Programming"
+[[languages.id.menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 1
+
+[[languages.id.menu.main]]
+name = "About"
+url = "page/about/"
+weight = 2
+
+[[languages.id.menu.main]]
+name = "Tags"
+url = "tags"
+weight = 3
+
+[languages.en]
+contentDir = "content/en" #English
+languageName = "English" 
+weight = 2 
+[languages.en.params]
+introPhoto = "#"
+introSubtitle = "Always update when the author is bored :)"
+introTitle = "Find Programming Articles"
+[[languages.en.menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "About"
+url = "page/about/"
+weight = 2
+
+[[languages.en.menu.main]]
+name = "Tags"
+url = "tags"
+weight = 3
+
+[params]
+# Enable the darkmode toggle in header
+
+darkModeToggle = true
+# Enable search in header
+enableSearch = true
+
+# Custom copyright - optional
+copyright = "Copyright © 2021 - NullPointer · All rights reserved"
+favicon = "/favicon.svg"
+
+# Color for the intro details and social links block, not applicable for dark mode
+# Supported values: Any color from TailwindCSS default colors
+# Reference: https://tailwindcss.com/docs/customizing-colors
+ascentColor = "bg-blue-100"
+
+[params.homepage.social]
+# Global params xommon for both languages
+description = "Follow our social media for more tips and memes"
+github = "https://github.com/"
+instagram = "https://instagram.com/"
+linkedin = "https://linkedin.com/in/"
+title = "Follow me"
+twitter = "https://twitter.com/"
+
+[[menu.main]]
+name = "About"
+url = "/about"
+
+[build]
+writeStats = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+[markup.highlight]
+style = "dracula"
+[markup.goldmark.renderer]
+# Enable to include inline HTML
+unsafe = true
