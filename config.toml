@@ -1,4 +1,4 @@
-baseurl = "examplesite.com"
+baseurl = "nullpointer.netlify.app"
 metaDataFormat = "yaml"
 theme = "NullTheme"
 title = "NullPointer"
